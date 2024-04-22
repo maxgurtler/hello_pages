@@ -1,0 +1,26 @@
+---
+title: "My Second Page"
+author: "Max Gurtler"
+date: "2024-04-22"
+theme: lux
+---
+
+```{r}
+library(reactable)
+```
+
+:::{.panel-tabset}
+
+## Iris Dataset
+
+```{r}
+reactable(iris)
+```
+
+## Plot
+
+```{r}
+plot(iris)
+```
+
+:::
