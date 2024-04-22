@@ -1,0 +1,26 @@
+---
+title: "My First Page"
+author: "Max Gurtler"
+date: "2024-04-22"
+theme: lux
+---
+
+```{r}
+library(reactable)
+```
+
+:::{.panel-tabset}
+
+## Infert Dataset
+
+```{r}
+reactable(infert)
+```
+
+## Women Plot
+
+```{r}
+plot(women)
+```
+
+:::
